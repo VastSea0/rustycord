@@ -5,7 +5,7 @@
   "identifier": "com.rustycord.app",
   "build": {
     "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1420",
+    "devUrl": "https://discord.com/app",
     "beforeBuildCommand": "npm run build",
     "frontendDist": "../dist"
   },
@@ -13,6 +13,8 @@
     "windows": [
       {
         "title": "rustycord",
+        "url": "https://discord.com/app",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "width": 800,
         "height": 600
       }
